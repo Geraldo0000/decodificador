@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descriptografando Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="pagina">
+        <section class="left-side">
+            <div class="content-img">
+                <img src="descriptografando_texto/imagem_figma/Frame 6.png" alt="logo Alura">
+            </div>
+            <textarea id="texto_entrada" rows="4" cols="50" placeholder="Digite seu texto"></textarea>
+        
+            <div class="imagem_figma">
+                <img src="descriptografando_texto/imagem_figma/bi_exclamation-circle-fill 1.png">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="pagina_conteudo_botao">
+                <button onclick="cripto()"
+                class="botao_criptografar_descriptografar">Criptografar</button>
+                
+                <button onclick="descripto()" class="botao_criptografar_descriptografar">Descriptografar</button>
+            </div>
+        </section> 
+        
+        <aside>
+            <div class="retangulo">
+
+                <img src="descriptografando_texto/imagem_figma/High quality products 1 1.svg" alt="logo da criptografia">
+                <div class="subtitle">
+                    <h2 class="retangulo_conteudo_mensagem">Nenhuma mensagem encontrada</h2>
+                    <p class="retangulo_conteudo_digitar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                
+            </div> 
+            <div class="retangulo2 removeRectangle">
+                <p class="texto-retangulo2"></p>
+                <button onclick="copiarTexto()" class="btn-copiar">copiar</button>
+            </div> 
+        </aside> 
+    
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Geraldo Lima.</p>
+
+    </footer>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>

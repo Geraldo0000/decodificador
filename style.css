@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #E0E1E1;
+    --cor-secundaria: #EEEDEB;
+    --cor-terciaria: #D8DFE8;
+    --cor-hover: #7CBFE0;
+
+    --fonte-primaria: "Inter", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+.pagina{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left-side {
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.content-img {
+    display: flex;
+    align-self: auto;
+    padding-top: 3%;
+    margin-left: 0%;
+    
+    width: 100%;
+    height: 10%;
+}
+
+.retangulo {
+    width: 80%;
+    height: 90%;
+    background-color: var(--cor-secundaria);
+    float: right;
+    margin-left: 20px;
+    border-radius: 16px; 
+    border: solid black 2px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.retangulo2 {
+    width: 80%;
+    height: 90%;
+    background-color: var(--cor-secundaria);
+    float: right;
+    margin-left: 20px;
+    border-radius: 16px; 
+    border: solid black 2px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.retangulo img {
+    height: 40%;
+    margin-top: 30%;
+}
+.retangulo_conteudo_mensagem{
+    font-family: "Inter", sans-serif;
+}
+.retangulo_conteudo_digitar{
+    display: flex;
+    padding-top: 5%;
+    font-family: "Inter", sans-serif;
+}
+
+.retangulo .subtitle {
+    height: 30%;
+}
+
+.subtitle {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto_entrada {
+    width: 80%;
+    margin: 0 auto;
+    height: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    border: none;
+    font-size: 32px;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+#texto_entrada:focus{
+    outline: none;
+}
+.imagem_figma{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 15%;
+    width: 80%;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    color: #4F4F4F;
+    
+}
+
+.imagem_figma img {
+    margin-right: 1em;
+}
+
+.texto-retangulo2 {
+    font-size: 20px;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+
+.pagina_conteudo_botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+.botao_criptografar_descriptografar:hover{
+    background-color: var(--cor-hover);
+}
+
+.text-area-dinamico {
+    
+    font-size: 32px;
+    color: red;
+}
+
+.botao_criptografar_descriptografar {
+    background-color: var(--cor-terciaria);
+    border-radius: 16px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.pagina_conteudo img {
+    display: block;
+    margin: 10px 0;
+}
+
+.texto-imagem {
+    display: flex;
+    align-items: center;
+}
+
+.btn-copiar {
+    background-color: var(--cor-terciaria);
+    border-radius: 16px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+.btn-copiar:hover{
+    background-color: var(--cor-hover);
+}
+
+.removeRectangle {
+    display: none;
+}
+
+.rodape{
+    color:var(--cor-primaria);
+    background-color: #758694;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 400;
+    
+
+
+}
